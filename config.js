@@ -50,11 +50,11 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'SETATI BOT'
+global.botname = 'SKOUZA'
 global.premium = 'true'
-global.packname = 'OMAR┃SETATI' 
+global.packname = 'OMAR┃SKOUZA' 
 global.author = '@ovmar_1' 
-global.menuvid = 'https://i.imgur.com/m6h1zIu.mp4'
+global.menuvid = 'https://i.imgur.com/nCqNwsr.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/ovmar_1\n' 
 global.dygp = 'https://chat.whatsapp.com/BFfD1C0mTDDDfVdKPkxRAA'
 global.fgsc = 'https://github.comjinkixzzexe/GURU-BOT' 
@@ -64,7 +64,8 @@ global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 
-global.wait = '*⌛ _ستاتي بوت غادي يصيفط ليك الملف ديالك ماتنساش دير فولو في الانستجرام_*\n‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎‎‎ ‎ ‎‎ ‎ ‎ ‎ ‎     *https://www.instagram.com/ovmar_1*'
+//global.wait = '*⌛ _ستاتي بوت غادي يصيفط ليك الملف ديالك ماتنساش دير فولو في الانستجرام_*\n‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎‎‎ ‎ ‎‎ ‎ ‎ ‎ ‎     *https://www.instagram.com/ovmar_1*'
+global.wait = '_*♲︎︎︎ سكوزا سوف يرسل الملف الخاص الأنولا تنسى دعمنا على انستجرام*_ n/ *INSTGRAM* n/ *_https://www.instagram.com/ovmar_1_* n/ *Whatsapp Gp* n/ _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
