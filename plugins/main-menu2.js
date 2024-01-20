@@ -39,7 +39,7 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 🚀 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🚀
 
-📜 *_Quote of the day: ${quote}_* 📜
+ ${quote}
 
 ┏━💼 _User Info:_ 💼━┓
 ┃ 👾  *User Tag:* ${taguser} 
@@ -85,21 +85,21 @@ function clockString(ms) {
     
     function ucapan() {
       const time = moment.tz('Asia/Kolkata').format('HH')
-      let res = "happy early in the day☀️"
+      let res = "_*♲︎︎︎ سكوز بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا والإنظمام الى مجموعتنا*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_* \n *Whatsapp Gp* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_"
       if (time >= 4) {
-        res = "Good Morning 🌄"
+        res = "_*♲︎︎︎ سكوز بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا والإنظمام الى مجموعتنا*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_*  \n *Whatsapp Gp*  \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_"
       }
       if (time >= 10) {
-        res = "Good Afternoon ☀️"
+        res = "_*♲︎︎︎ سكوز بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا والإنظمام الى مجموعتنا*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_*  \n *Whatsapp Gp*  \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_"
       }
       if (time >= 15) {
-        res = "Good Afternoon 🌇"
+        res = "_*♲︎︎︎ سكوز بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا والإنظمام الى مجموعتنا*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_*  \n *Whatsapp Gp*  \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_"
       }
       if (time >= 18) {
-        res = "Good Night 🌙"
+        res = "_*♲︎︎︎ سكوز بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا والإنظمام الى مجموعتنا*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_*  \n *Whatsapp Gp*  \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_"
       }
       return res
     }
     const quotes = [
-       "_*البوت المغربي ستاتي يرحب بكمي دوما وابدا*_"
+       "_*♲︎︎︎ سكوز بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا والإنظمام الى مجموعتنا*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_*  \n *Whatsapp Gp*  \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_"
 ];
