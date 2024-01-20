@@ -1,7 +1,8 @@
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, text }) => {
-    if (!text) throw 'What do you want to create?'
+    if (!text) throw 'كيف تريد أن يكون?'
+    await conn.reply(m.chat, global.wait, m)
     m.react(rwait)
     let msg = encodeURIComponent(text)
     let res = await fetch(`https://aemt.me/bingimg?text=${msg}`)
