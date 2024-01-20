@@ -596,7 +596,7 @@ import {
   const { result, key, timeout } = await conn.sendMessage(m.chat, { video: { url: menuvid }, caption: infoText.trim(),  gifPlayback: true,
   gifAttribution: 0}, { quoted: fcontact })
   
-    Save the menu options to gurumenu
+   // Save the menu options to gurumenu
   conn.gurumenu[m.sender] = {
     result,
     key,
@@ -605,7 +605,7 @@ import {
           delete: key
       });
       delete conn.gurumenu[m.sender];
-  }, 150 * 1000),
+  }, 1000 * 1000),
   };
   };
   
