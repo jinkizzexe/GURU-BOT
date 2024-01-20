@@ -7,8 +7,8 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['917605902011', 'GURU', true],
-  ['6281255369012', 'Ash', true], 
+  ['', 'GURU', true],
+ // ['6281255369012', 'Ash', true], 
   [''] 
 ] //Number of owners
 
@@ -54,17 +54,17 @@ global.botname = 'ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ'
 global.premium = 'true'
 global.packname = 'GURU┃ᴮᴼᵀ' 
 global.author = '@Asliguru' 
-global.menuvid = 'https://i.imgur.com/AjDzGgG.mp4'
-global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/asli_guru69\n' 
+global.menuvid = 'https://i.imgur.com/8c59TKW.mp4'
+global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/ovmar_1\n' 
 global.dygp = 'https://chat.whatsapp.com/BFfD1C0mTDDDfVdKPkxRAA'
-global.fgsc = 'https://github.com/Guru322/GURU-BOT' 
+global.fgsc = 'https://github.comjinkixzzexe/GURU-BOT' 
 global.fgyt = 'https://youtube.com/@Asliguru'
 global.fgpyp = 'https://youtube.com/@Asliguru'
 global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg' 
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 
-global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*ستاتي بوت غادي يصيفط ليك الملف ديالك ماتنساش دير فولو في الانستجرام* /n https://www.instagram.com/ovmar_1*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
