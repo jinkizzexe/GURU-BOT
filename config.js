@@ -66,7 +66,7 @@ global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
 global.waitt = '*_لماذا لاتدعمنا على انستجرام لن تخسر أي شي https://www.instagram.com/ovmar_1_*'
-global.rwait = '🦸🏻'
+global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
 global.error = '❌' 
