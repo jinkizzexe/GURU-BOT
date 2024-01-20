@@ -2,7 +2,7 @@ let handler = m => m
 handler.all = async function (m) {
     
   if (/^.menu$/i.test(m.text) ) {
-    let av = './Assets/mp3/menu.mp3'
+    let av = './Assets/mp3/menu1.mp3'
     this.sendPresenceUpdate('recording', m.chat);
     this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
    }
