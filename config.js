@@ -64,7 +64,7 @@ global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 
-global.wait = '*ستاتي بوت غادي يصيفط ليك الملف ديالك ماتنساش دير فولو في الانستجرام* /n https://www.instagram.com/ovmar_1*'
+global.wait = '*⌛ _ستاتي بوت غادي يصيفط ليك الملف ديالك ماتنساش دير فولو في الانستجرام_*\n*https://www.instagram.com/ovmar_1*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
