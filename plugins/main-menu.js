@@ -537,38 +537,11 @@ import {
     global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     const infoText = `
     ${botname} あ⁩ 」\n
-    Hii ${name} Senpai
-    
-    *${ucpn}* 
-   
-    乂───『 *U S E R*』───乂
-    ⛥ *Name:* ${name}
-    ⛥ *Gold:* ${credit}
-    ⛥ *Role:* ${role}
-    ⛥ *Level:* ${level}
-    ⛥ *Xp:* ${exp}
-    ╰──────────⳹
-   
-    乂───『 *I N F O*』───乂
-    ⛥ *Bot Name:* ${botname}
-    ⛥ *Mode:* ${mode}
-    ⛥ *Platform:* ${platform}
-    ⛥ *Type:* NodeJs
-    ⛥ *Baileys:* Multi Device
-    ⛥ *Prefix:* [ *${usedPrefix}* ]
-    ⛥ *Uptime:* ${muptime}
-    ⛥ *Database:*  ${totalreg}
-    ╰──────────⳹
-    
-    乂───『 *I N F O  C M D*』───乂 
-    │ *${totalfeatures}* Commands
-    ╰──────────⳹
-     ${readMore}
-
-    乂───『 *INFO*』───乂 
-  │*Reply with the number*
-  │ to get respected Menu*
-  ╰───────⳹
+    *مرحبا بك في بوت سكوزا لماذا لاتقوم بدعمنا 👋🏽*
+    INSTAGRAM
+    *_https://www.instagram.com/ovmar_1_*
+Whatsapp Gp
+*_https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5_*
   ╭───────⳹
   │ *1.* Bot Menu
   │ *2.* Owner Menu
@@ -618,75 +591,75 @@ import {
     const choice = m.text.trim();
     
     if (choice === "1") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: botmenu
       }, { quoted:fcontact });
       } else if (choice === "2") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: ownermenu
       }, { quoted:fcontact });
       } else if (choice === "3") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: groupmenu
       }, { quoted:fcontact });
       } else if (choice === "4") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: funmenu
       }, { quoted:fcontact });
       } else if (choice === "5") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: reactmenu
       }, { quoted:fcontact });
       } else if (choice === "6") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: dlmenu
       }, { quoted:fcontact });
       } else if (choice === "7") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: groupmenu
       }, { quoted:fcontact });
       } else if (choice === "8") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: logomenu
       }, { quoted:fcontact });
       } else if (choice === "9") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: stickermenu
       }, { quoted:fcontact });
       } else if (choice === "10") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: audiomenu
       }, { quoted:fcontact });
       } else if (choice === "11") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: newsmenu
       }, { quoted:fcontact });
       } else if (choice === "12") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: economy
       }, { quoted:fcontact });
       } else if (choice === "13") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: animemenu
       }, { quoted:fcontact });
       } else if (choice === "14") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: nsfwmenu
       }, { quoted:fcontact });
       } else if (choice === "15") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: toolsmenu
       }, { quoted:fcontact });
       } else if (choice === "16") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: Aimenu
       }, { quoted:fcontact });
       } else if (choice === "17") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: religionmenu
       }, { quoted:fcontact });
       } else if (choice === "18") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/5aKfb4E.jpg' },
         caption: pluginmenu
       }, { quoted:fcontact });
       } else {
@@ -726,24 +699,24 @@ import {
     let h = isNaN(ms) ? "--" : Math.floor(ms / 3600000) % 24
     let m = isNaN(ms) ? "--" : Math.floor(ms / 60000) % 60
     let s = isNaN(ms) ? "--" : Math.floor(ms / 1000) % 60
-    return [ye, " *Years 🗓️*\n", mo, " *Month 🌙*\n", d, " *Days ☀️*\n", h, " *Hours 🕐*\n", m, " *Minute ⏰*\n", s, " *Second ⏱️*"].map(v => v.toString().padStart(2, 0)).join("")
+    //return [ye, " *Years 🗓️*\n", mo, " *Month 🌙*\n", d, " *Days ☀️*\n", h, " *Hours 🕐*\n", m, " *Minute ⏰*\n", s, " *Second ⏱️*"].map(v => v.toString().padStart(2, 0)).join("")
    }
    
-   function ucapan() {
+   //function ucapan() {
     const time = moment.tz("Asia/Kolkata").format("HH")
-    let res = "Good morning ☀️"
-    if (time >= 4) {
-     res = "Good Morning 🌄"
+    //let res = "Good morning ☀️"
+   // if (time >= 4) {
+    // res = "Good Morning 🌄"
     }
-    if (time >= 10) {
-     res = "Good Afternoon ☀️"
+   // if (time >= 10) {
+   //  res = "Good Afternoon ☀️"
     }
-    if (time >= 15) {
-     res = "Good Afternoon 🌇"
+   // if (time >= 15) {
+ ///    res = "Good Afternoon 🌇"
     }
-    if (time >= 18) {
-     res = "Good Night 🌙"
+ //   if (time >= 18) {
+   //  res = "Good Night 🌙"
     }
-    return res
+//    return res
    }
   
