@@ -515,14 +515,14 @@ import {
   
    let ucpn = `${ucapan()}`
   
-   let _uptime = process.uptime() * 1000
+   let _uptime = process.uptime() * 1000000
    let _muptime
    if (process.send) {
   process.send("uptime")
   _muptime = await new Promise(resolve => {
   process.once("message", resolve)
-  setTimeout(resolve, 1000)
-  }) * 1000
+  setTimeout(resolve, 100000)
+  }) * 100000
    }
    let muptime = clockString(_muptime)
    let uptime = clockString(_uptime)
@@ -605,7 +605,7 @@ import {
           delete: key
       });
       delete conn.gurumenu[m.sender];
-  }, 150 * 1000),
+  }, 1500 * 1000),
   };
   };
   
