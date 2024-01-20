@@ -731,18 +731,18 @@ import {
    
    function ucapan() {
     const time = moment.tz("Asia/Kolkata").format("HH")
-    let res = "♲︎︎︎ _*سكوزا بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا على انستجرام والإنظمام الى مجموعتنا *_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_*  \n *Whatsapp Gp*  \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_"
+    let res = "♲︎︎︎ _*سكوزا بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا على انستجرام والإنظمام الى مجموعتنا *_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_*  \n *Whatsapp Gp*  \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
     if (time >= 4) {
-     res = "♲︎︎︎ _*سكوزا بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا على انستجرام والإنظمام الى مجموعتنا *_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_*  \n *Whatsapp Gp*  \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_"
+     res = "♲︎︎︎ _*سكوزا بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا على انستجرام والإنظمام الى مجموعتنا *_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_*  \n *Whatsapp Gp*  \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
     }
     if (time >= 10) {
-     res = "♲︎︎︎ _*سكوزا بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا على انستجرام والإنظمام الى مجموعتنا*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_*  \n *Whatsapp Gp*  \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_"
+     res = "♲︎︎︎ _*سكوزا بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا على انستجرام والإنظمام الى مجموعتنا*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_*  \n *Whatsapp Gp*  \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
     }
     if (time >= 15) {
-     res = "♲︎︎︎ _*سكوزا بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا على انستجرام والإنظمام الى مجموعتنا*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_* \n *Whatsapp Gp* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_"
+     res = "♲︎︎︎ _*سكوزا بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا على انستجرام والإنظمام الى مجموعتنا*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_* \n *Whatsapp Gp* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
     }
    if (time >= 18) {
-  res = "♲︎︎︎ _*سكوزا بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا على انستجرام والإنظمام الى مجموعتنا*_ n\*INSTGRAM*  n\*_https://www.instagram.com/ovmar_1_*  n\ *Whatsapp Gp*  n\ _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_"
+  res = "♲︎︎︎ _*سكوزا بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا على انستجرام والإنظمام الى مجموعتنا*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_*  n\ *Whatsapp Gp*  n\ _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
     }
     return res
    }
