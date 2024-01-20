@@ -704,9 +704,9 @@ Whatsapp Gp
    
    function ucapan() {
     const time = moment.tz("Asia/Kolkata").format("HH")
-    //let res = "Good morning ☀️"
-   // if (time >= 4) {
-    // res = "Good Morning 🌄"
+    let res = "Good morning ☀️"
+   if (time >= 4) {
+    res = "Good Morning 🌄"
     }
    // if (time >= 10) {
    //  res = "Good Afternoon ☀️"
