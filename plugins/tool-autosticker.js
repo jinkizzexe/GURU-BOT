@@ -10,7 +10,7 @@ let user = db.data.users[m.sender]
 
 if (chat.autosticker && m.isGroup) {
 let q = m
-let stiker = false
+let stiker = true
 let wm = 'AsliGuru'
 let mime = (q.msg || q).mimetype || q.mediaType || ''
 if (/webp/g.test(mime)) return
@@ -20,14 +20,14 @@ if (!img) return
 stiker = await createSticker(img, false, packname || global.packname, author || global.author)
 //stiker = await sticker(img, false, packname, author)
 } else if (/video/g.test(mime)) {
-//if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return await this.sendButton(m.chat, '*Send video of 7 seconds*', wm, [['DEACTIVE AUTOSTICKER', '/disable autosticker']], m)
+if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return await this.sendButton(m.chat, '*Send video of 7 seconds*', wm, [['DEACTIVE AUTOSTICKER', '/disable autosticker']], m)
 if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return await this.sendReply(m.chat,{text:'*Send video of 7 seconds*'}, m.sender)    
 let img = await q.download()
 if (!img) return
 stiker = await mp4ToWebp(img, { pack: packname || global.packname, author: author || global.author })
-//stiker = await sticker(img, false, packname, author)
+stiker = await sticker(img, false, packname, author)
 } else if (m.text.split(/\n| /i)[0]) {
-if (isUrl(m.text)) stiker = await createSticker(false, args[0], '', author, 20)
+if (isUrl(m.text)) stiker = await createSticker(true, args[0], '', author, 20)
 else return
 }
 if (stiker) {
