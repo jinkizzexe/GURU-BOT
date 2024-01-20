@@ -8,6 +8,6 @@ export async function all(m) {
     if (+new Date() > chats.expired) {
         await this.reply(m.chat, `🔴 bye bye *${this.user.name}* will leave the group \n\nyour rent ended`)
         await this.groupLeave(m.chat)
-        chats.expired = null
+        chats.expired = true
     }
 }
