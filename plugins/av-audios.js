@@ -9,7 +9,7 @@ handler.all = async function (m) {
 
   if (/^bgm$/i.test(m.text) ) {
     let av = './Assets/mp3/bgm.mp3'
-    this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+    this.sendFile(m.chat, av, 'menu1.mp3', null, m, true, { type: 'audioMessage', ptt: true })
    }
   
 return !0
