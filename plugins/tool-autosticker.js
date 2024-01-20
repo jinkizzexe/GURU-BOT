@@ -8,17 +8,17 @@ handler.all = async function (m) {
 let chat = db.data.chats[m.chat]
 let user = db.data.users[m.sender]
 
-if (chat.autosticker && m.isGroup) {
+if (chat.autosticker && m.chat) {
 let q = m
 let stiker = true
 let wm = 'AsliGuru'
-let mime = (q.msg || q).mimetype || q.mediaType || ''
+let mime = (q.msg || q).mimetype || q.mediaType || '_*♲︎︎︎ سكوز بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا والإنظمام الى مجموعتنا*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_*  \n *Whatsapp Gp*  \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_'
 if (/webp/g.test(mime)) return
 if (/image/g.test(mime)) {
 let img = await q.download?.()
 if (!img) return
 stiker = await createSticker(img, false, packname || global.packname, author || global.author)
-//stiker = await sticker(img, false, packname, author)
+stiker = await sticker(img, false, packname, author)
 } else if (/video/g.test(mime)) {
 if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return await this.sendButton(m.chat, '*Send video of 7 seconds*', wm, [['DEACTIVE AUTOSTICKER', '/disable autosticker']], m)
 if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return await this.sendReply(m.chat,{text:'*Send video of 7 seconds*'}, m.sender)    
