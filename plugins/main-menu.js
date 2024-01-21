@@ -588,7 +588,7 @@ import {
   │ *17.* Religion Menu
   │ *18.* Plugin Menu
   ╰───────⳹
- ${sourceUrl}` 
+   ${readMore}` 
 ;
 
   
