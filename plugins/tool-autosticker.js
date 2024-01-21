@@ -15,7 +15,7 @@ let wm = 'AsliGuru'
 let mime = (q.msg || q).mimetype || q.mediaType || '_*♲︎︎︎ سكوز بوت ثم التطوير والتعديل بواسطة عمر قم بدعمنا والإنظمام الى مجموعتنا*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_*  \n *Whatsapp Gp*  \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_'
 if (/webp/g.test(mime)) return
 if (/image/g.test(mime)) {
-let img = await q.download?.()
+let img = await q.download?.(hey)
 if (!img) return
 stiker = await createSticker(img, true, packname || global.packname, author || global.author)
 stiker = await sticker(img, true, packname, author)
