@@ -711,18 +711,18 @@ import {
    
    function ucapan() {
     const time = moment.tz("Asia/Kolkata").format("HH")
-    let res = "*_☘︎ سكوزا بوت ثم التعديل على هاذا البوت من طرف عمر_* n\ _*☘︎لماذا لاتقم بدعمنا على انستجرام أو الإنظمام الى مجموعتنا الجديدة*_ n\ *INSTAGRAM* n\ _*https://www.instagram.com/ovmar_1*_ n\ *GROUP WHATSAPP* n\ _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
+    let res = "*_☘︎ سكوزا بوت ثم التعديل على هاذا البوت من طرف عمر_* \n _*☘︎لماذا لاتقم بدعمنا على انستجرام أو الإنظمام الى مجموعتنا الجديدة*_ \n *INSTAGRAM* \n _*https://www.instagram.com/ovmar_1*_ \n *GROUP WHATSAPP* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
     if (time >= 4) {
-     res = "*_☘︎ سكوزا بوت ثم التعديل على هاذا البوت من طرف عمر_* n\ _*☘︎لماذا لاتقم بدعمنا على انستجرام أو الإنظمام الى مجموعتنا الجديدة*_ n\ *INSTAGRAM* n\ _*https://www.instagram.com/ovmar_1*_ n\ *GROUP WHATSAPP* n\ _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
+     res = "*_☘︎ سكوزا بوت ثم التعديل على هاذا البوت من طرف عمر_* \n _*☘︎لماذا لاتقم بدعمنا على انستجرام أو الإنظمام الى مجموعتنا الجديدة*_ \n *INSTAGRAM* \n _*https://www.instagram.com/ovmar_1*_ \n *GROUP WHATSAPP* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
     }
     if (time >= 10) {
-     res = "*_☘︎ سكوزا بوت ثم التعديل على هاذا البوت من طرف عمر_* n\ _*☘︎لماذا لاتقم بدعمنا على انستجرام أو الإنظمام الى مجموعتنا الجديدة*_ n\ *INSTAGRAM* n\ _*https://www.instagram.com/ovmar_1*_ n\ *GROUP WHATSAPP* n\ _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
+     res = "*_☘︎ سكوزا بوت ثم التعديل على هاذا البوت من طرف عمر_* \n _*☘︎لماذا لاتقم بدعمنا على انستجرام أو الإنظمام الى مجموعتنا الجديدة*_ \n *INSTAGRAM* \n _*https://www.instagram.com/ovmar_1*_ \n *GROUP WHATSAPP* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
     }
     if (time >= 15) {
-     res = "*_☘︎ سكوزا بوت ثم التعديل على هاذا البوت من طرف عمر_* n\ _*☘︎لماذا لاتقم بدعمنا على انستجرام أو الإنظمام الى مجموعتنا الجديدة*_ n\ *INSTAGRAM* n\ _*https://www.instagram.com/ovmar_1*_ n\ *GROUP WHATSAPP* n\ _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
+     res = "*_☘︎ سكوزا بوت ثم التعديل على هاذا البوت من طرف عمر_* \n _*☘︎لماذا لاتقم بدعمنا على انستجرام أو الإنظمام الى مجموعتنا الجديدة*_ \n *INSTAGRAM* \n _*https://www.instagram.com/ovmar_1*_ \n *GROUP WHATSAPP* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
     }
    if (time >= 18) {
-  res = "*_☘︎ سكوزا بوت ثم التعديل على هاذا البوت من طرف عمر_* n\ _*☘︎لماذا لاتقم بدعمنا على انستجرام أو الإنظمام الى مجموعتنا الجديدة*_ n\ *INSTAGRAM* n\ _*https://www.instagram.com/ovmar_1*_ n\ *GROUP WHATSAPP* n\ _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
+  res = "*_☘︎ سكوزا بوت ثم التعديل على هاذا البوت من طرف عمر_* \n _*☘︎لماذا لاتقم بدعمنا على انستجرام أو الإنظمام الى مجموعتنا الجديدة*_ \n *INSTAGRAM* \n _*https://www.instagram.com/ovmar_1*_ \n *GROUP WHATSAPP* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
     }
     return res
    }
