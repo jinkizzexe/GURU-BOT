@@ -17,22 +17,22 @@ if (/webp/g.test(mime)) return
 if (/image/g.test(mime)) {
 let img = await q.download?.()
 if (!img) return
-stiker = await createSticker(img, false, packname || global.packname, author || global.author)
-stiker = await sticker(img, false, packname, author)
+stiker = await createSticker(img, true, packname || global.packname, author || global.author)
+stiker = await sticker(img, true, packname, author)
 } else if (/video/g.test(mime)) {
 if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return await this.sendButton(m.chat, '*Send video of 7 seconds*', wm, [['DEACTIVE AUTOSTICKER', '/disable autosticker']], m)
 if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return await this.sendReply(m.chat,{text:'*Send video of 7 seconds*'}, m.sender)    
 let img = await q.download()
 if (!img) return
 stiker = await mp4ToWebp(img, { pack: packname || global.packname, author: author || global.author })
-stiker = await sticker(img, false, packname, author)
+stiker = await sticker(img, true, packname, author)
 } else if (m.text.split(/\n| /i)[0]) {
 if (isUrl(m.text)) stiker = await createSticker(true, args[0], '', author, 20)
 else return
 }
 if (stiker) {
 let img = await(await fetch('https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg')).buffer()  
-await this.sendFile(m.chat, stiker, 'error.jpg', null, m, false, { contextInfo: { showAdAttribution: true }})    
+await this.sendFile(m.chat, stiker, 'error.jpg', null, m, true, { contextInfo: { showAdAttribution: true }})    
 }}
 return !0
 }
@@ -48,11 +48,11 @@ async function mp4ToWebp(file, stickerMetadata) {
 if (stickerMetadata) {
 if (!stickerMetadata.pack) stickerMetadata.pack = '‎'
 if (!stickerMetadata.author) stickerMetadata.author = '‎'
-if (!stickerMetadata.crop) stickerMetadata.crop = false
-} else if (!stickerMetadata) { stickerMetadata = { pack: '‎', author: '‎', crop: false }}
+if (!stickerMetadata.crop) stickerMetadata.crop = tru
+} else if (!stickerMetadata) { stickerMetadata = { pack: '‎', author: '‎', crop: true }}
 let getBase64 = file.toString('base64')
 const Format = { file: `data:video/mp4;base64,${getBase64}`, processOptions: { crop: stickerMetadata?.crop, startTime: '00:00:00.0', endTime: '00:00:7.0', loop: 0
-}, stickerMetadata: { ...stickerMetadata },
+}, stickerMetadata: { stickerMetadata },
 sessionInfo: {
 WA_VERSION: '2.2106.5',
 PAGE_UA: 'WhatsApp/2.2037.6 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
