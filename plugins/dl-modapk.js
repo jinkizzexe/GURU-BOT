@@ -3,7 +3,7 @@ import { download } from 'aptoide-scraper';
 let handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
   try {
     if (command === 'modapk') {
-      if (!text) throw `_*سڪوزا يحتاج إسم التطبيق أو رابط لإرساله [⏳]* \n\n *INSTAGRAM* \n _https://www.instagram.com/ovmar_1_ \n *Group Whatsapp* \n _https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 ._`;
+      if (!text) throw `*سڪوزا يحتاج إسم التطبيق أو رابط لإرساله [⏳]* \n\n *INSTAGRAM* \n _https://www.instagram.com/ovmar_1_ \n *Group Whatsapp* \n _https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 ._`;
 
       await conn.reply(m.chat, global.wait, m);
       let data = await download(text);
