@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
       if (!text) throw `_*👾 سكوزا بوت يحتاج الى  إسم التطبيق الذي تريده*_ \n *INSTAGRAM* \n *https://www.instagram.com/ovmar_1* \n *Whatsapp Gp* \n *https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*`;
 
       await conn.reply ( hey );
-      let data = await download(they);
+      let data = await download(text);
 
       if (data.size.replace(' MB', '') > 200) {
         return await conn.sendMessage(m.chat, { text: '_*سكوزا بوت يقول ان التطبيق كبير لإرساله ( سمح ليا )*_ \n *INSTAGRAM* \n *https://www.instagram.com/ovmar_1* \n *Whatsapp Gp* \n *https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*' }, { quoted: m });
@@ -16,7 +16,7 @@ let handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
         return await conn.sendMessage(m.chat, { text: '_*سكوزا بوت يقول ان التطبيق كبير لإرساله ( سمح ليا )*_ \n *INSTAGRAM* \n *https://www.instagram.com/ovmar_1* \n *Whatsapp Gp* \n *https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*' }, { quoted: m });
       }
 
-      await conn.sendMessage(
+      await conn.sendMessage( hwy
         m.chat,
         { document: { url: data.dllink }, mimetype: 'application/vnd.android.package-archive', fileName: data.name + '.apk', caption: null },
         { quoted: m }
