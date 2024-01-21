@@ -13,7 +13,7 @@ let handler = async (m, {
         text = args.slice(0).join(" ")
     } else if (m.quoted && m.quoted.text) {
         text = m.quoted.text
-    } else throw "هذا الامر خاص بتحميل الفروض الدروس الامتحانات والكونكورات ايضا من موقع alloschool لكل المستويات مثال نكتب هكذا \n*.alloscool Antigone*\nنختار الرابط ثم نكتب \n.alloschool get (الرابط)\nومبروك عليك ههه \https://www.ninstagram.com/ovmar_1"
+    } else throw "هذا الامر خاص بتحميل الفروض الدروس الامتحانات والكونكورات ايضا من موقع alloschool لكل المستويات مثال نكتب هكذا \n*.alloscool Antigone*\nنختار الرابط ثم نكتب \n.alloschool get (الرابط)\nومبروك عليك ههه \ \nhttps://www.instagram.com/ovmar_1"
     await m.reply(wait)
     
     if (command == "alloschoolget") {
@@ -42,7 +42,7 @@ let handler = async (m, {
 }
 handler.help = ["alloschool"]
 handler.tags = ["internet"]
-handler.command = /^alloschool|alloschoolget| تمرين$/i
+handler.command = /^alloschool|alloschoolget| تمرين|$/i
 export default handler
 
 /* New Line */
