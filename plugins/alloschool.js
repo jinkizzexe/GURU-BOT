@@ -42,7 +42,7 @@ let handler = async (m, {
 }
 handler.help = ["alloschool"]
 handler.tags = ["internet"]
-handler.command = /^alloschool|alloschoolget| تمرين|$/i
+handler.command = /^alloschool|alloschoolget|$/i
 export default handler
 
 /* New Line */
