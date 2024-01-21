@@ -10,6 +10,6 @@ handler.help = ['setwelcome <text>']
 handler.tags = ['group']
 handler.command = ['setwelcome'] 
 handler.admin = true
-handler.owner = false
+handler.owner = true
 
 export default handler
