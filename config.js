@@ -65,7 +65,7 @@ global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 
 //global.wait = '*⌛ _ستاتي بوت غادي يصيفط ليك الملف ديالك ماتنساش دير فولو في الانستجرام_*\n‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎‎‎ ‎ ‎‎ ‎ ‎ ‎ ‎     *https://www.instagram.com/ovmar_1*'
-global.wait = '𝘓3𝘻𝘸𝘢𝘢 𝘣𝘰𝘵 \n \n _*سوف يتم تلبية طلبك*_ \n 𝘐𝘯𝘴𝘵𝘢𝘨𝘳𝘢𝘮 \n  _https://www.instagram.com/ovmar_1'
+global.wait = '_*سوف يتم تلبية طلبك*_ \n 𝘐𝘯𝘴𝘵𝘢𝘨𝘳𝘢𝘮 \n \n _https://www.instagram.com/ovmar_1_'
 //global.wait = '_*♲︎︎︎ سكوزا سوف يرسل الملف الخاص الأن لا تنسى دعمنا على انستجرام*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_* \n *Whatsapp Gp* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_'
 global.rwait = '⌛'
 global.dmoji = '🤭'
