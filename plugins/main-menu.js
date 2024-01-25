@@ -536,19 +536,11 @@ import {
    
     global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     const infoText = `
-        ${botname} BOT
+            ${botname} BOT
     
-    ${ucpn}
+       ${ucpn}
   
-    乂───『 *I N F O  C M D*』───乂 
-    │ *${totalfeatures}* Commands
-    ╰──────────⳹
-     ${readMore}
-
-    乂───『 *INFO*』───乂 
-  │*Reply with the number*
-  │ to get respected Menu*
-  ╰───────⳹
+    
   ╭───────⳹
   │ *1.* Bot Menu
   │ *2.* Owner Menu
@@ -711,7 +703,7 @@ import {
    
    function ucapan() {
     const time = moment.tz("Asia/Kolkata").format("HH")
-    let res = "*مرحبا بك في العزو بوت ثم التعديل على البوت من طرف OVMAR* \n* *البوت فيه كل ماتحتاج من تطبيق وألعاب لهاذا لاتنسى متابعتي على* \n  *INSTAGRAM*\n https://www.instagram.com/ovmar_1"
+    let res = "*مرحبا بك في العزوة بوت \n ثم التعديل على البوت من طرف OVMAR* \n* *البوت فيه كل ماتحتاج من تطبيق وألعاب لهاذا لاتنسى متابعتي على* \n  *INSTAGRAM*\n https://www.instagram.com/ovmar_1"
     if (time >= 4) {
     // res = "*_☘︎  بوت ثم التعديل على هاذا البوت من طرف عمر_* \n _*☘︎لماذا لاتقم بدعمنا على انستجرام أو الإنظمام الى مجموعتنا الجديدة*_ \n *INSTAGRAM* \n _*https://www.instagram.com/ovmar_1*_ \n *GROUP WHATSAPP* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
     }
