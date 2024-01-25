@@ -2,8 +2,8 @@ import fetch from 'node-fetch';
 import displayLoadingScreen from '../lib/loading.js';
 let handler = async (m, { conn, text }) => {
     if (!text) {
-        console.log('No song name provided.');
-        throw `*Please enter a song name*`;
+        console.log('الإسم غير صحيح جرب مرة اخرى \n instagram \n https://www.instagram.com/ovmar_1.');
+        throw `*أكتب إسم الأغنية* \n instagram \n https://www.instagram.com/ovmar_1`;
     }
   m.react('🎶')
   await displayLoadingScreen(conn, m.chat);
