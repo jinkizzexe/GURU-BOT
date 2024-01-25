@@ -3,17 +3,17 @@ import { download } from 'aptoide-scraper';
 let handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
   try {
     if (command === 'modapk', 'apk', 'app') {
-      if (!text) throw `𝘓3𝘻𝘸𝘢𝘢 𝘣𝘰𝘵 \n \n _*لم نتڪمن من التعرف على اسم او رابط التطبيق 🔎*_ \n 𝘐𝘯𝘴𝘵𝘢𝘨𝘳𝘢𝘮 \n  _https://www.instagram.com/ovmar_1_  𝘞𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘎𝘗 \n _https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 :_`;
+      if (!text) throw `𝘓3𝘻𝘸𝘢𝘢 𝘣𝘰𝘵 \n \n _*لم نتڪمن من التعرف على اسم او رابط التطبيق 🔎*_ \n 𝘐𝘯𝘴𝘵𝘢𝘨𝘳𝘢𝘮 \n  _https://www.instagram.com/ovmar_1_`;
       m.react(rwait)
       await conn.reply(m.chat, global.wait, m);
       let data = await download(text);
 
       if (data.size.replace(' MB', '') > 700) {
-        return await conn.sendMessage(m.chat, { text: '𝘓3𝘻𝘸𝘢𝘢 𝘣𝘰𝘵 \n \n _*التطبيق ڪبير جدا 🚫*_ \n 𝘐𝘯𝘴𝘵𝘢𝘨𝘳𝘢𝘮 \n  _https://www.instagram.com/ovmar_1_  𝘞𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘎𝘗 \n _https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 :_' }, { quoted: m });
+        return await conn.sendMessage(m.chat, { text: '𝘓3𝘻𝘸𝘢𝘢 𝘣𝘰𝘵 \n \n _*التطبيق ڪبير جدا 🚫*_ \n 𝘐𝘯𝘴𝘵𝘢𝘨𝘳𝘢𝘮 \n  _https://www.instagram.com/ovmar_1_ :' }, { quoted: m });
       }
 
       if (data.size.includes('GB')) {
-        return await conn.sendMessage(m.chat, { text: '𝘓3𝘻𝘸𝘢𝘢 𝘣𝘰𝘵 \n \n _*التطبيق ڪبير جدا 🚫*_ \n 𝘐𝘯𝘴𝘵𝘢𝘨𝘳𝘢𝘮 \n  _https://www.instagram.com/ovmar_1_  𝘞𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘎𝘗 \n _https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 :_' }, { quoted: m });
+        return await conn.sendMessage(m.chat, { text: '𝘓3𝘻𝘸𝘢𝘢 𝘣𝘰𝘵 \n \n _*التطبيق ڪبير جدا 🚫*_ \n 𝘐𝘯𝘴𝘵𝘢𝘨𝘳𝘢𝘮 \n  _https://www.instagram.com/ovmar_1_' }, { quoted: m });
       }
 
       await conn.sendMessage(
@@ -25,7 +25,7 @@ let handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
   m.react(done)
   } catch {
     throw `
-    𝘓3𝘻𝘸𝘢𝘢 𝘣𝘰𝘵 \n \n _*لم نتڪمن من التعرف على اسم او رابط التطبيق 🔎*_ \n 𝘐𝘯𝘴𝘵𝘢𝘨𝘳𝘢𝘮 \n  _https://www.instagram.com/ovmar_1_  𝘞𝘩𝘢𝘵𝘴𝘢𝘱𝘱 𝘎𝘗 \n _https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 :_`;
+    𝘓3𝘻𝘸𝘢𝘢 𝘣𝘰𝘵 \n \n _*لم نتڪمن من التعرف على اسم او رابط التطبيق 🔎*_ \n 𝘐𝘯𝘴𝘵𝘢𝘨𝘳𝘢𝘮 \n  _https://www.instagram.com/ovmar_1_`;
   }
 };
 
