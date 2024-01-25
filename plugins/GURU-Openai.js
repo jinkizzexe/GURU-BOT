@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { text, conn, usedPrefix, command }) => {
   if (!text && !(m.quoted && m.quoted.text)) {
-    throw `𝘓3𝘡𝘞𝘈 𝘉𝘖𝘛 \𝘯 *يرجى تقديم بعض النص أو اقتباس رسالة للحصول على رد*.`;
+    throw `*يرجى تقديم بعض النص أو اقتباس رسالة للحصول على رد* Instagram \n https://www.instagram.com/ovmar_1.`;
   }
 
   if (!text && m.quoted && m.quoted.text) {
