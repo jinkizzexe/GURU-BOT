@@ -3,7 +3,7 @@ import gtts from 'node-gtts';
 import { readFileSync, unlinkSync } from 'fs';
 import { join } from 'path';
 
-const defaultLang = 'hi';
+const defaultLang = 'سلام';
 
 
 export async function before(m, { conn }) {
@@ -55,7 +55,7 @@ export async function before(m, { conn }) {
     speech = await tts(reply, defaultLang);
   } catch (e) {
     m.reply(e + '');
-    throw 'Error occurred during text-to-speech conversion.';
+    throw 'حدث خطأ أثناء تحويل النص إلى كلام \n instagram \n https://www.instagram.com/ovmar_1.';
   } finally {
     if (speech) conn.sendFile(m.chat, speech, 'tts.opus', null, m, true);
   }
