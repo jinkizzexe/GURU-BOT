@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { text, conn, usedPrefix, command }) => {
   if (!text && !(m.quoted && m.quoted.text)) {
-    throw `*يرجى تقديم بعض النص أو اقتباس رسالة للحصول على رد* Instagram \n https://www.instagram.com/ovmar_1.`;
+    throw `*يرجى تقديم بعض النص أو اقتباس رسالة للحصول على رد*\n Instagram \n https://www.instagram.com/ovmar_1`;
   }
 
   if (!text && m.quoted && m.quoted.text) {
