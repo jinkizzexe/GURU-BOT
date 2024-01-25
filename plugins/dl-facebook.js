@@ -14,10 +14,7 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
 
   try {
     const result = await fg.fbdl(args[0]);
-    const tex = `
-⊱ ─── {*L3ZWA FBDL*} ─── ⊰
-↳ *وقت الفيديو:* ${result.title}
-⊱ ────── {⋆♬⋆} ────── ⊰`;
+    const tex = `*ثم إرسال الفيديو بنجاح* \n instagram \n https://www.instagram.com/ovmar_1`;
 
     const response = await fetch(result.videoUrl);
     const arrayBuffer = await response.arrayBuffer();
