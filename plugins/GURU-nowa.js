@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
     let regex = /x/g
-    if (!text) throw 'Give a number to search'
-    if (!text.match(regex)) throw `*Example: ${usedPrefix + command} 91760590201x*`
+    if (!text) throw 'أكتب رقم للبحث عنه..'
+    if (!text.match(regex)) throw `*مثال: ${usedPrefix + command} 212616400069x\n instagram \n https://www.instagram.com/ovmar_1*`
     let random = text.match(regex).length, total = Math.pow(10, random), array = []
     for (let i = 0; i < total; i++) {
     let list = [...i.toString().padStart(random, '0')]
