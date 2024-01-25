@@ -7,7 +7,7 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['212601291320', 'GURU', true],
+  ['212601291320', 'OMAR', true],
  // ['6281255369012', 'Ash', true], 
   [''] 
 ] //Number of owners
@@ -50,13 +50,13 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'SKOUZA'
+global.botname = 'L3ZWA'
 global.premium = 'true'
-global.packname = 'OMAR┃SKOUZA' 
-global.author = '@ovmar_1' 
-global.menuvid = 'https://i.imgur.com/nCqNwsr.mp4'
+global.packname = 'OMAR' 
+global.author = 'L3ZWA' 
+global.menuvid = 'https://i.imgur.com/Fqq21e7.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/ovmar_1\n' 
-global.dygp = 'https://chat.whatsapp.com/BFfD1C0mTDDDfVdKPkxRAA'
+global.dygp = ''
 global.fgsc = 'https://github.comjinkixzzexe/GURU-BOT' 
 global.fgyt = 'https://youtube.com/@Asliguru'
 global.fgpyp = 'https://youtube.com/@Asliguru'
@@ -65,7 +65,8 @@ global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 
 //global.wait = '*⌛ _ستاتي بوت غادي يصيفط ليك الملف ديالك ماتنساش دير فولو في الانستجرام_*\n‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎‎‎ ‎ ‎‎ ‎ ‎ ‎ ‎     *https://www.instagram.com/ovmar_1*'
-global.wait = '_*♲︎︎︎ سكوزا سوف يرسل الملف الخاص الأن لا تنسى دعمنا على انستجرام*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_* \n *Whatsapp Gp* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_'
+global.wait = '𝘓3𝘻𝘸𝘢𝘢 𝘣𝘰𝘵 \n \n _*سوف يتم تلبية طلبك*_ \n 𝘐𝘯𝘴𝘵𝘢𝘨𝘳𝘢𝘮 \n  _https://www.instagram.com/ovmar_1'
+//global.wait = '_*♲︎︎︎ سكوزا سوف يرسل الملف الخاص الأن لا تنسى دعمنا على انستجرام*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_* \n *Whatsapp Gp* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
