@@ -6,8 +6,8 @@ let handler = async (m, { conn, args, usedPrefix, command, isOwner, isPrems }) =
 	var limit
      if((isOwner || isPrems)) limit = 1200
      else limit = 100
-   if (!args[0]) throw `✳️ Enter the mediafire link next to the command`
-    if (!args[0].match(/mediafire/gi)) throw `❎ Link incorrect`
+   if (!args[0]) throw `قم باإرسال الرابط الذي تريد تحميله \n instagram \n https://www.instagram.com/ovmar_1`
+    if (!args[0].match(/mediafire/gi)) throw `الرابط غير صحيح \n instagram \n https://www.instagram.com/ovmar_1`
     m.react(rwait)
     let full = /f$/i.test(command)
     let u = /https?:\/\//.test(args[0]) ? args[0] : 'https://' + args[0]
