@@ -1,10 +1,10 @@
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) throw `*This command generates images from text prompts*\n\n*𝙴xample usage*\n*◉ ${usedPrefix + command} Beautiful anime girl*\n*◉ ${usedPrefix + command} Elon Musk in pink output*`;
+  if (!text) throw `𝘓3𝘡𝘞𝘈 𝘉𝘖𝘛 *هاذا الأمر خاص باٳنشاء الصور*\n\n*مثــال*\n*◉ ${usedPrefix + command} Beautiful anime girl*\n*◉ ${usedPrefix + command} Elon Musk in pink output*`;
 
   try {
-    m.reply('*الرجاء الانتظار، جارٍ إنشاء الصور...* \n Insta');
+    m.reply('*الرجاء الانتظار، جارٍ إنشاء الصور...* \n Instagram \n https://www.instagram.com/ovmar_1');
 
     const endpoint = `https://cute-tan-gorilla-yoke.cyclic.app/imagine?text=${encodeURIComponent(text)}`;
     const response = await fetch(endpoint);
@@ -16,7 +16,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
       throw '*Image generation failed*';
     }
   } catch {
-    throw '*Oops! Something went wrong while generating images. Please try again later.*';
+    throw '*_L3ZWA BOT_ \n *أُووبس! حدث خطأ ما أثناء إنشاء الصور. الرجاء معاودة المحاولة في وقت لاحق**';
   }
 };
 
