@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { text, conn, usedPrefix, command }) => {
   if (!text && !(m.quoted && m.quoted.text)) {
-    throw `Please provide some text or quote a message to get a response.`;
+    throw `𝘓3𝘡𝘞𝘈 𝘉𝘖𝘛 \𝘯 *يرجى تقديم بعض النص أو اقتباس رسالة للحصول على رد*.`;
   }
 
   if (!text && m.quoted && m.quoted.text) {
@@ -12,8 +12,8 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
   try {
     m.react(rwait)
     const { key } = await conn.sendMessage(m.chat, {
-      image: { url: 'https://telegra.ph/file/c3f9e4124de1f31c1c6ae.jpg' },
-      caption: 'Thinking....'
+      image: { url: 'https://i.imgur.com/uuFuEtO.jpg' },
+      caption: 'جاري انشاء النص... \n Instagram \n https://www.instagram.com/ovmar_1'
     }, {quoted: m})
     conn.sendPresenceUpdate('composing', m.chat);
     const prompt = encodeURIComponent(text);
