@@ -47,4 +47,4 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isROwner }
   }
 }
 
-export const disabled = false;
+export const disabled = true;
