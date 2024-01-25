@@ -2,8 +2,8 @@ import uploadImage from '../lib/uploadImage.js'
 let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || q.mediaType || ""
-if (!/image/g.test(mime)) throw '*Respond to a image*'
-m.reply('*This command can turn your photo into anime*')    
+if (!/image/g.test(mime)) throw '*قم باإرسال الصورة \n instagram \n https://www.instagram.com/ovmar_1*'
+m.reply('*هاذا الأمر يحول أي صورة الى أنمي او كرتون \n instagram \n https://www.instagram.com/ovmar_1*')    
 let data = await q.download?.()
 let image = await uploadImage(data)
 try {
@@ -18,7 +18,7 @@ try{
 let anime3 = `https://api.caliph.biz.id/api/animeai?img=${image}&apikey=caliphkey`
 await conn.sendFile(m.chat, anime3, 'error.jpg', null, m) 
 } catch (e) {
-throw '*Error check if the persons face is visible*'
+throw '*خطأ رجاء الوجه يكون متواجد في الصورة \n instagram \n https://www.instagram.com/ovmar_1*'
 }}}}
 handler.help = ["toanime"]
 handler.tags = ["AI"]
