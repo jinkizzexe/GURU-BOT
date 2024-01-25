@@ -2,10 +2,10 @@
 import fg from 'api-dylux'
 let handler= async (m, { conn, args, text, usedPrefix, command }) => {
 	
-    if (!args[0]) throw `✳️ Enter the Instagram Username\n\n📌Example: ${usedPrefix + command} asli_guru69` 
+    if (!args[0]) throw `أرسال إسم الإنستجرام\n\n📌Example: ${usedPrefix + command} OVMAR_1` 
     let res = await fg.igStalk(args[0])
     let te = `
-┌──「 *STALKING* 
+┌──「 *L3ZWA* 
 ▢ *🔖Number:* ${res.name} 
 ▢ *🔖Username:* ${res.username}
 ▢ *👥followers:* ${res.followersH}
