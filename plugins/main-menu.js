@@ -711,7 +711,7 @@ import {
    
    function ucapan() {
     const time = moment.tz("Asia/Kolkata").format("HH")
-    let res = "*_☘︎ L3ZWA BOT بوت ثم التعديل على هاذا البوت من طرف عمر_* \n _*☘︎لماذا لاتقم بدعمنا على انستجرام أو الإنظمام الى مجموعتنا الجديدة*_ \n *INSTAGRAM* \n _*https://www.instagram.com/ovmar_1 !*_"
+    let res = "*&بوت ثم التعديل على هاذا البوت من طرف عمر_* \n _*لماذا لاتقم بدعمنا على انستجرام*_ \n *INSTAGRAM* \n _*https://www.instagram.com/ovmar_1 !*_"
     if (time >= 4) {
     // res = "*_☘︎  بوت ثم التعديل على هاذا البوت من طرف عمر_* \n _*☘︎لماذا لاتقم بدعمنا على انستجرام أو الإنظمام الى مجموعتنا الجديدة*_ \n *INSTAGRAM* \n _*https://www.instagram.com/ovmar_1*_ \n *GROUP WHATSAPP* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
     }
