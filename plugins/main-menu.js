@@ -711,7 +711,7 @@ import {
    
    function ucapan() {
     const time = moment.tz("Asia/Kolkata").format("HH")
-    let res = "*مرحبا بك في بوت لعزة ثم التعدي على البوت من طرف OVMAR البوت فيه كل ماتحتاج من تطبيق وألعاب لهاذا لاتنسى متابعتي على INSTAGRAM*\n https://www.instagram.com/ovmar_1"
+    let res = "*مرحبا بك في بوت لعزة ثم التعديل على البوت من طرف OVMAR \n* *البوت فيه كل ماتحتاج من تطبيق وألعاب لهاذا لاتنسى متابعتي على* \n  *INSTAGRAM*\n https://www.instagram.com/ovmar_1"
     if (time >= 4) {
     // res = "*_☘︎  بوت ثم التعديل على هاذا البوت من طرف عمر_* \n _*☘︎لماذا لاتقم بدعمنا على انستجرام أو الإنظمام الى مجموعتنا الجديدة*_ \n *INSTAGRAM* \n _*https://www.instagram.com/ovmar_1*_ \n *GROUP WHATSAPP* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5 !*_"
     }
