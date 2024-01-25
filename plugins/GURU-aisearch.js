@@ -6,7 +6,7 @@ const endpoint = 'https://v2-guru-indratensei.cloud.okteto.net/perplexity?query=
 let handler = async (m, { text, conn, usedPrefix, command }) => {
   try {
     if (!text && !(m.quoted && m.quoted.text)) {
-      throw `Please provide some text or quote a message to get a response.`;
+      throw `يرجى تقديم بعض النص أو اقتباس رسالة للحصول على رد \n instagram \n https://www.instagram.com/ovmar_1.`;
     }
 
     if (!text && m.quoted && m.quoted.text) {
@@ -25,7 +25,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
     const response = await fetch(endpoint + prompt);
 
     if (!response.ok) {
-      throw `Received an error response from the server: ${response.status} - ${response.statusText}`;
+      throw `تم تلقي استجابة خطأ من الخادم\n instagram \n https://www.instagram.com/ovmar_1: ${response.status} - ${response.statusText}`;
     }
 
     const data = await response.json();
@@ -41,7 +41,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
       }, {})
   } catch (error) {
     console.error('Error:', error);
-    m.reply(`An error occurred while processing your request. Please try again later.`);
+    m.reply(`حدث خطأ أثناء معالجة طلبك. الرجاء معاودة المحاولة في وقت لاحق. \n instagram \n https://www.instagram.com/ovmar_1.`);
   }
 };
 handler.help = ['aisearch']
