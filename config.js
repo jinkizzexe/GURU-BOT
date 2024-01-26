@@ -53,7 +53,7 @@ global.APIKeys = { // APIKey Here
 global.botname = 'L3ZWA'
 global.premium = 'true'
 global.packname = 'OMAR' 
-global.author = 'L3ZWA' 
+global.author = '' 
 global.menuvid = 'https://i.imgur.com/wOBpQCo.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/ovmar_1\n' 
 global.dygp = ''
@@ -64,8 +64,9 @@ global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 
+global.wait = '*_قم بالإنظمام الۍ مجموعتنا ؏لى واتساب *_ \n https://chat.whatsapp.com/EtvWb5preas43EOZNqALjx'
 //global.wait = '*⌛ _ستاتي بوت غادي يصيفط ليك الملف ديالك ماتنساش دير فولو في الانستجرام_*\n‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎‎‎ ‎ ‎‎ ‎ ‎ ‎ ‎     *https://www.instagram.com/ovmar_1*'
-global.wait = '_*سوف يتم تلبية طلبك*_ \n 𝘐𝘯𝘴𝘵𝘢𝘨𝘳𝘢𝘮 \n \n _https://www.instagram.com/ovmar_1_'
+//global.wait = '_*سوف يتم تلبية طلبك*_ \n 𝘐𝘯𝘴𝘵𝘢𝘨𝘳𝘢𝘮 \n \n _https://www.instagram.com/ovmar_1_'
 //global.wait = '_*♲︎︎︎ سكوزا سوف يرسل الملف الخاص الأن لا تنسى دعمنا على انستجرام*_ \n *INSTGRAM* \n *_https://www.instagram.com/ovmar_1_* \n *Whatsapp Gp* \n _*https://chat.whatsapp.com/ByIauCfwCFeE1ozctmwbS5*_'
 global.rwait = '⌛'
 global.dmoji = '🤭'
